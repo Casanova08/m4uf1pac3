@@ -1,0 +1,18 @@
+main > h2 {
+    font-size: 30px;
+    padding-top: 15px;
+  }
+
+main > div
+{
+  display: flex;
+  justify-content: center;
+}
+
+iframe{
+  margin-top: 15px;
+  margin-bottom: 15px;
+    height: 600px;
+    width: 1000px;
+}
+

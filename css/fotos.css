@@ -1,0 +1,40 @@
+main {
+  background-color: rgb(200, 255, 255);
+}
+
+main > img {
+  background-color: rgb(200, 255, 255);
+  padding: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+#Esland {
+  height: 300px;
+  width: auto;
+}
+
+#JuanMasi {
+  height: 300px;
+  width: auto;
+}
+
+#JuanAndres {
+  height: 300px;
+  width: auto;
+}
+
+#Ohana {
+  height: 300px;
+  width: auto;
+}
+
+#Camionero {
+  height: 300px;
+  width: auto;
+}
+
+#SWAT {
+  height: 300px;
+  width: auto;
+}

@@ -1,0 +1,37 @@
+article {
+  clear: both;
+}
+
+main h3 {
+  font-size: 30px;
+}
+
+article {
+  width: 50%;
+  height: 453.5px;
+  float: left;
+  background-color: rgb(200, 255, 255);
+}
+
+article p {
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+aside {
+  width: 50%;
+  float: right;
+  background-color: rgb(200, 255, 255);
+}
+
+aside h2 {
+  padding-left: 50px;
+  font-size: 30px;
+}
+
+#Menu {
+  height: 400px;
+  width: auto;
+  padding-left: 50px;
+  padding-top: 15px;
+}
