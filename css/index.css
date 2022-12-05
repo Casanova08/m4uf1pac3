@@ -35,3 +35,39 @@ aside h2 {
   padding-left: 50px;
   padding-top: 15px;
 } */
+
+:root{
+  --article-bg-color: rgb(200, 255, 255);
+  --section-bg-color: rgb(255, 200, 255);
+}
+
+article {
+  background-color: var(--article-bg-color);
+}
+
+article h3 {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+article p {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+section{
+  background-color: var(--section-bg-color);
+}
+
+section h2{
+  padding-left: 10px;
+}
+
+section img{
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+footer{
+  padding-top: 8px;
+}

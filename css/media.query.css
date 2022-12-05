@@ -2,15 +2,6 @@
     box-sizing: border-box;
 }
 
-#logo,nav,main,aside,footer{
-    border: 1px solid black;
-}
-
-#logo,nav{height: 25vh;}
-main{height: 37.5vh;}
-aside{height: 12.5vh;}
-footer{height: 25vh;}
-
 [class*="col-"] {
     float: left;
 }
@@ -50,7 +41,8 @@ footer{height: 25vh;}
     .col-xs-11 {width: 91.66%;}
     .col-xs-12 {width: 100%;}
 
-    #banner {width: 100%;}
+    article {height: 32vh;}
+    section {height: 50vh;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
