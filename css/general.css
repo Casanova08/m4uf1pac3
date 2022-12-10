@@ -1,13 +1,25 @@
-/* main{
-    background-color: rgb(200, 255, 255);
+main h1 {
+  background-color: rgb(200, 255, 255);
+  padding-left: 10px;
+  padding: 10px;
 }
 
-main > h1 {
-    font-size: 30px;
-    padding-top: 15px;
+main p {
+  background-color: rgb(200, 255, 255);
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
-main>p {
-    font-size: 20px;
-    padding-top: 15px;
-} */
+main div {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 200, 255)
+}
+
+main img {
+  width: 400px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

@@ -1,10 +1,15 @@
-/* main > p{
-    font-size: 20px;
-    padding-top: 10px;
-    padding-left: 5px;
+main {
+  background-color: rgb(200, 255, 255);
 }
 
-main > iframe{
+p{
     padding-top: 10px;
-    padding-left: 5px;
-} */
+    padding-left: 10px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

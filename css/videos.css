@@ -1,18 +1,13 @@
-/* main > h2 {
-    font-size: 30px;
-    padding-top: 15px;
-  }
+main{
+  background-color: rgb(200, 255, 255);
+}
 
-main > div
-{
+h2 {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+div{
   display: flex;
   justify-content: center;
 }
-
-iframe{
-  margin-top: 15px;
-  margin-bottom: 15px;
-    height: 600px;
-    width: 1000px;
-}
- */

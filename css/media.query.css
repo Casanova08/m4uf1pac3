@@ -41,8 +41,115 @@
     .col-xs-11 {width: 91.66%;}
     .col-xs-12 {width: 100%;}
 
+    /* Common */
+    header {height: 11vh;}
+    #banner{
+        height: 80px;
+        width: 80px;
+    }
+    footer{height: 6vh;}
+    ul {
+        list-style-type: none;
+        padding-top: 30px;
+    }
+    li a {
+        font-size: 15px;
+        padding: 3px;
+        background-color: rgb(255, 200, 255);
+        border: 1px solid rgb(0, 220, 255);
+        text-decoration: none;
+    }
+
+    /* Index */
     article {height: 32vh;}
     section {height: 50vh;}
+    section img{
+        margin-left: 20px;
+        margin-top: 25px;
+      }
+    
+    /* General */
+    #H1General{height: 7vh;}
+    
+    #DivGeneral{height: 60vh;}
+
+    #P1General{height: 20vh;}
+
+    #P2General{height: 7vh;}
+
+    #P3General{height: 14vh;}
+
+    #P4General{height: 9vh;}
+
+    /* Fotos */
+    #Esland{height: 305px;}
+
+    #ImgEsland{height: 300px;}
+
+    #JuanMasi{height: 255px;}
+
+    #ImgJuanMasi{
+        height: 250px;
+        width: 400px;
+    }
+
+    #JuanAndres{height: 305px;}
+
+    #ImgJuanAndres {
+        height: 300px;
+        width: auto;
+    }
+
+    #ImgOhana {
+        height: 350px;
+        width: auto;
+      }
+
+    #ImgSWAT {
+        height: 300px;
+      }
+
+    /* Videos */
+    #MainVideos {height: 82vh;}
+
+    #IframeVideos{
+        margin-top: 100px;
+        height: 300px;
+        width: 450px;
+    }
+
+    /* Agenda */
+    #MainAgenda {height: 82vh;}
+
+    #H2Agenda{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    #DivAgenda{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Calendari{
+        margin-top: 100px;
+        height: 350px;
+        width: 450px;
+    }
+
+    /* Contacte */
+    #MainContacte{
+        height: 82vh;
+    }
+    
+    #PContacte{height: 8vh;}
+
+    #DivContacte{height: 60vh;}
+
+    #IframeContacte{
+        height: 300px;
+        width: 400px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -59,8 +166,121 @@
     .col-sm-10 {width: 83.33%;}
     .col-sm-11 {width: 91.66%;}
     .col-sm-12 {width: 100%;}
+
+    /* Common */
+    header {height: 12vh;}
+    #banner{
+        height: 100px;
+        width: 100px;
+    }
+    footer{height: 6vh;}
+    ul {
+        list-style-type: none;
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+      }
+    li {
+        padding-left: 4px;
+    }
+    li a {
+        font-size: 15px;
+        padding: 8px;
+        background-color: rgb(255, 200, 255);
+        border: 1px solid rgb(0, 220, 255);
+        text-decoration: none;
+      }
+
+    /* Index */
+    article {height: 30vh;}
+    article h3{
+        font-size: 22px;
+    }
+    article p {
+        font-size: 17px;
+    }
+    section {height: 50vh;}
+    section h2 {padding-top: 5px;}
+    section img{
+        margin-left: 60px;
+        margin-top: 25px;
+      }
+
+    /* General */
+
+
+    /* Fotos */
+    #Esland{height: 305px;}
+
+    #ImgEsland{height: 300px;}
+
+    #JuanMasi{height: 255px;}
+
+    #ImgJuanMasi{
+        height: 250px;
+        width: 400px;
+    }
+
+    #JuanAndres{height: 305px;}
+
+    #ImgJuanAndres {
+        height: 300px;
+        width: auto;
+    }
+
+    #ImgOhana {
+        height: 350px;
+        width: auto;
+      }
+
+    #ImgSWAT {
+        height: 300px;
+      }
+
+    /* Videos */
+    #MainVideos {height: 80vh;}
+
+    #IframeVideos{
+        margin-top: 100px;
+        height: 300px;
+        width: 450px;
+    }
+
+    /* Agenda */
+    #MainAgenda {height: 80vh;}
+
+    #H2Agenda{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    #DivAgenda{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Calendari{
+        margin-top: 100px;
+        height: 350px;
+        width: 450px;
+    }
+
+    /* Contacte */
+    #MainContacte{height: 80vh;}
+    
+    #PContacte{
+        height: 8vh;
+        font-size: 20px;
+    }
+
+    #DivContacte{height: 60vh;}
+
+    #IframeContacte{
+        height: 300px;
+        width: 400px;
+    }
 }
-  
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .col-md-1 {width: 8.33%;}
@@ -75,8 +295,106 @@
     .col-md-10 {width: 83.33%;}
     .col-md-11 {width: 91.66%;}
     .col-md-12 {width: 100%;}
-    main,aside{height: 25vh;}
-    #logo{display:block;}
+
+    /* Common */
+    header {height: 12vh;}
+    #banner {
+        height: 120px;
+        width: 120px;
+    }
+    footer{height: 6vh;}
+    ul {
+        list-style-type: none;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+
+    }
+    li {
+        padding-left: 5px;
+    }
+    li a {
+        font-size: 20px;
+        padding: 8px;
+        background-color: rgb(255, 200, 255);
+        border: 1px solid rgb(0, 220, 255);
+        text-decoration: none;
+    }
+
+    /* Index */
+    article {height: 30vh;}
+    article h3{
+        font-size: 25px;
+    }
+    article p {
+        font-size: 20px;
+    }
+    section {height: 50vh;}
+    section h2 {padding-top: 5px;}
+    section img{
+        margin-left: 140px;
+        margin-top: 25px;
+      }
+
+    /* General */
+
+
+    /* Fotos */
+    #Esland{height: 255px;}
+
+    #ImgEsland{height: 250px;}
+
+    #JuanMasi{height: 255px;}
+
+    #ImgJuanMasi{
+        height: 250px;
+        width: 350px;
+    }
+
+    #JuanAndres{height: 255px;}
+
+    #ImgJuanAndres {
+        height: 250px;
+        width: auto;
+    }
+
+    #Ohana{height: 255px;}
+
+    #ImgOhana {
+        height: 250px;
+        width: auto;
+      }
+
+    #Camionero{height: 255px;}
+
+    #ImgCamionero{
+        height: 250px;
+        width: auto;
+    }
+
+    #SWAT{height: 255px;}
+
+    #ImgSWAT {
+        height: 250px;
+        width: auto;
+      }
+
+
+    /* Videos */
+    #MainVideos {height: 75vh;}
+
+    #IframeVideos{
+        margin-top: 50px;
+        height: 400px;
+        width: 550px;
+    }
+
+    /* Agenda */
+
+
+    /* Contacte */
+
+
 }
   
 /* Large devices (laptops/desktops, 992px and up) */
@@ -93,22 +411,35 @@
     .col-lg-10 {width: 83.33%;}
     .col-lg-11 {width: 91.66%;}
     .col-lg-12 {width: 100%;}
-    #logo,nav,footer{height: 12.5vh;}
-    main,aside{height: 75vh;}
-}
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .col-xl-1 {width: 8.33%;}
-    .col-xl-2 {width: 16.66%;}
-    .col-xl-3 {width: 25%;}
-    .col-xl-4 {width: 33.33%;}
-    .col-xl-5 {width: 41.66%;}
-    .col-xl-6 {width: 50%;}
-    .col-xl-7 {width: 58.33%;}
-    .col-xl-8 {width: 66.66%;}
-    .col-xl-9 {width: 75%;}
-    .col-xl-10 {width: 83.33%;}
-    .col-xl-11 {width: 91.66%;}
-    .col-xl-12 {width: 100%;}
+
+    /* Common */
+    header {height: 20vh;}
+    #banner{
+        height: 145px;
+        width: 145px;
+    }
+    footer{height: 6vh;}
+    li a {
+        font-size: 15px;
+        padding: 3px;
+        background-color: rgb(255, 200, 255);
+        border: 1px solid rgb(0, 220, 255);
+        text-decoration: none;
+      }
+
+    /* Index */
+
+
+    /* General */
+
+
+    /* Videos */
+
+
+    /* Agenda */
+
+
+    /* Contacte */
+
+
 }
