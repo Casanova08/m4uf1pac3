@@ -529,10 +529,19 @@
         padding-top: 5px;
         font-size: 25px;
     }
-    section img{
-        margin-left: 20px;
-        margin-top: 65px;
+
+    /* Hi habia un problema amb la foto que no quedava en una bona posició */
+    /* #FotoMenu{
+        display: flex;
+        justify-content: flex;
     }
+
+    #Menu{
+        padding-top: 100px;
+        padding-bottom: 20px;
+        height: 400px;
+        width: auto;
+    } */
 
     /* General */
     #H1General{
@@ -572,11 +581,15 @@
         background-color: rgb(200, 255, 255);
     }
 
+    /* #Carrusel{
+        height: 40vh;
+    } */
+
     #Esland{height: 305px;}
 
     #ImgEsland{height: 300px;}
 
-    #JuanMasi{height: 255px;}
+    #JuanMasi{height: 305px;}
 
     #ImgJuanMasi{
         height: 250px;
@@ -590,10 +603,16 @@
         width: auto;
     }
 
+    #Ohana{height: 305px;}
+
     #ImgOhana {
         height: 350px;
         width: auto;
       }
+
+    #Camionero{height: 305px;}
+
+    #SWAT{height: 305px;}
 
     #ImgSWAT {
         height: 300px;
