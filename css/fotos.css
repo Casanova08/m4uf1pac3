@@ -4,30 +4,6 @@ div {
   flex-wrap: wrap;
 }
 
-#Esland {
-  background-color: rgb(200, 255, 255);
-}
-
-#JuanMasi {
-  background-color: rgb(255, 200, 255);
-}
-
-#JuanAndres {
-  background-color: rgb(200, 255, 255);
-}
-
-#Ohana {
-  background-color: rgb(255, 200, 255);
-}
-
-#Camionero {
-  background-color: rgb(200, 255, 255);
-}
-
-#SWAT {
-  background-color: rgb(255, 200, 255);
-}
-
 main div img {
   padding-top: 10px;
   padding-bottom: 10px;

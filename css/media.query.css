@@ -80,30 +80,45 @@
     #P3General{height: 14vh;}
 
     #P4General{height: 9vh;}
-
+ 
     /* Fotos */
-    #Esland{height: 305px;}
+    #Esland{
+        height: 305px;
+        background-color: rgb(200, 255, 255);
+    }
 
     #ImgEsland{height: 300px;}
 
-    #JuanMasi{height: 255px;}
+    #JuanMasi{
+        height: 255px;
+        background-color: rgb(255, 200, 255);
+    }
 
     #ImgJuanMasi{
         height: 250px;
         width: 400px;
     }
 
-    #JuanAndres{height: 305px;}
+    #JuanAndres{
+        height: 305px;
+        background-color: rgb(200, 255, 255);
+    }
 
     #ImgJuanAndres {
         height: 300px;
         width: auto;
     }
 
+    #Ohana{background-color: rgb(255, 200, 255);}
+
     #ImgOhana {
         height: 350px;
         width: auto;
       }
+
+    #Camionero{background-color: rgb(200, 255, 255);}
+
+    #SWAT{background-color: rgb(255, 200, 255);}
 
     #ImgSWAT {
         height: 300px;
@@ -210,28 +225,43 @@
 
 
     /* Fotos */
-    #Esland{height: 305px;}
+    #Esland{
+        height: 305px;
+        background-color: rgb(200, 255, 255);
+    }
 
     #ImgEsland{height: 300px;}
 
-    #JuanMasi{height: 255px;}
+    #JuanMasi{
+        height: 255px;
+        background-color: rgb(255, 200, 255);
+    }
 
     #ImgJuanMasi{
         height: 250px;
         width: 400px;
     }
 
-    #JuanAndres{height: 305px;}
+    #JuanAndres{
+        height: 305px;
+        background-color: rgb(200, 255, 255);
+    }
 
     #ImgJuanAndres {
         height: 300px;
         width: auto;
     }
 
+    #Ohana{background-color: rgb(255, 200, 255);}
+
     #ImgOhana {
         height: 350px;
         width: auto;
       }
+
+    #Camionero{background-color: rgb(200, 255, 255);}
+
+    #SWAT{background-color: rgb(255, 200, 255);}
 
     #ImgSWAT {
         height: 300px;
@@ -340,39 +370,57 @@
 
 
     /* Fotos */
-    #Esland{height: 255px;}
+    #Esland{
+        height: 255px;
+        background-color: rgb(200, 255, 255);
+    }
 
     #ImgEsland{height: 250px;}
 
-    #JuanMasi{height: 255px;}
+    #JuanMasi{
+        height: 255px;
+        background-color: rgb(255, 200, 255);
+    }
 
     #ImgJuanMasi{
         height: 250px;
         width: 350px;
     }
 
-    #JuanAndres{height: 255px;}
+    #JuanAndres{
+        height: 255px;
+        background-color: rgb(200, 255, 255);
+    }
 
     #ImgJuanAndres {
         height: 250px;
         width: auto;
     }
 
-    #Ohana{height: 255px;}
+    #Ohana{
+        height: 255px;
+        background-color: rgb(255, 200, 255);
+    }
 
     #ImgOhana {
         height: 250px;
         width: auto;
-      }
+    }
 
-    #Camionero{height: 255px;}
+    #Camionero{
+        height: 255px;
+        background-color: rgb(200, 255, 255);
+    }
 
     #ImgCamionero{
         height: 250px;
         width: auto;
     }
 
-    #SWAT{height: 255px;}
+    #SWAT{
+        height: 255px;
+        background-color: rgb(255, 200, 255);
+    }
 
     #ImgSWAT {
         height: 250px;
@@ -390,11 +438,39 @@
     }
 
     /* Agenda */
+    #MainAgenda {height: 75vh;}
 
+    #H2Agenda{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    #DivAgenda{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Calendari{
+        margin-top: 15px;
+        height: 450px;
+        width: 500px;
+    }
 
     /* Contacte */
+    #MainContacte{height: 75vh;}
+    
+    #PContacte{
+        height: 8vh;
+        font-size: 20px;
+    }
 
+    #DivContacte{height: 60vh;}
 
+    #IframeContacte{
+        margin-top: 50px;
+        height: 450px;
+        width: 550px;
+    }
 }
   
 /* Large devices (laptops/desktops, 992px and up) */
@@ -418,28 +494,146 @@
         height: 145px;
         width: 145px;
     }
-    footer{height: 6vh;}
+    footer{
+        height: 8vh;
+        padding-top: 20px;
+    }
+    ul {
+        list-style-type: none;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+
+    }
+    li {
+        padding-left: 5px;
+    }
     li a {
-        font-size: 15px;
-        padding: 3px;
+        font-size: 30px;
+        padding: 10px;
         background-color: rgb(255, 200, 255);
         border: 1px solid rgb(0, 220, 255);
         text-decoration: none;
       }
 
     /* Index */
-
+    article {height: 70vh;}
+    article h3{
+        font-size: 30px;
+    }
+    article p {
+        font-size: 25px;
+    }
+    section {height: 70vh;}
+    section h2 {
+        padding-top: 5px;
+        font-size: 25px;
+    }
+    section img{
+        margin-left: 20px;
+        margin-top: 65px;
+    }
 
     /* General */
+    #H1General{
+        height: 7vh;
+        font-size: 30px;
+    }
+    
+    #DivGeneral{height: 60vh;}
 
+    #IlloJuanPortada{
+        height: 400px;
+    }
+
+    #P1General{
+        height: 60vh;
+        font-size: 25px;
+    }
+
+    #P2General{
+        height: 5vh;
+        font-size: 20px;
+    }
+
+    #P3General{
+        height: 10vh;
+        font-size: 20px;
+    }
+
+    #P4General{
+        height: 9vh;
+        font-size: 20px;
+    }
+
+    /* Fotos */
+
+    #MainFotos{
+        background-color: rgb(200, 255, 255);
+    }
+
+    #Esland{height: 305px;}
+
+    #ImgEsland{height: 300px;}
+
+    #JuanMasi{height: 255px;}
+
+    #ImgJuanMasi{
+        height: 250px;
+        width: 400px;
+    }
+
+    #JuanAndres{height: 305px;}
+
+    #ImgJuanAndres {
+        height: 300px;
+        width: auto;
+    }
+
+    #ImgOhana {
+        height: 350px;
+        width: auto;
+      }
+
+    #ImgSWAT {
+        height: 300px;
+      }
 
     /* Videos */
+    #MainVideos {height: 72vh;}
 
+    #IframeVideos{
+        margin-top: 15px;
+        height: 460px;
+        width: 950px;
+    }
 
     /* Agenda */
+    #MainAgenda {height: 72vh;}
 
+    #H2Agenda{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    #DivAgenda{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Calendari{
+        margin-top: 15px;
+        height: 450px;
+        width: 500px;
+    }
 
     /* Contacte */
+    #DivContacte{height: 60vh;}
 
+    #IframeContacte{
+        margin-top: 50px;
+        height: 450px;
+        width: 550px;
+    }
 
 }
