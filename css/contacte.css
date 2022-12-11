@@ -2,14 +2,13 @@ main {
   background-color: rgb(200, 255, 255);
 }
 
-p{
-    padding-top: 10px;
-    padding-left: 10px;
+p {
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
